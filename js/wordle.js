@@ -6,7 +6,7 @@ var row=0;//current guss(attempt #)
 var col=0;//current letter for that attempt
 
 var gameOver=false;
-var word="SQUID";
+var word="PARIS";
 
 
 window.onload=function(){

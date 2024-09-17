@@ -1,6 +1,7 @@
 body {
     font-family:Arial,Helvetica,Sans-serif;
     text-align: center;
+    background-color: rgb(11, 129, 175);
 }
 
 hr{
@@ -11,6 +12,14 @@ title{
 font-size: 36px;
 font-weight: bold;
 letter-spacing: 2px;
+
+}
+
+.tt{
+    font-family: "Playwrite CU", cursive;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
 
 #board{
@@ -24,7 +33,7 @@ letter-spacing: 2px;
 
 .tile{
     /*box*/
-    border: 2px solid lightgray;
+    border: 2px solid rgb(16, 45, 68);
     width: 60px;
     height: 60px;
     margin: 2.5px;
@@ -39,7 +48,7 @@ letter-spacing: 2px;
 }
 
 .correct{
-    background-color: #6AAA45;
+    background-color: #65d822;
     color: white;
     border-color: white;
 }
